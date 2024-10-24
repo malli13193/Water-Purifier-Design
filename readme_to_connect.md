@@ -26,3 +26,11 @@ Before you begin, ensure you have met the following requirements:
    git clone https://github.com/your-username/repo-name.git
    cd repo-name
 
+2. **Install required libraries:**
+   ```bash
+   pip install numpy matplotlib paho-mqtt requests
+
+**Configure ThingSpeak:**
+```bash
+THINGSPEAK_API_KEY = 'YOUR_WRITE_API_KEY'
+CHANNEL_ID = 'YOUR_CHANNEL_ID'
